@@ -9,9 +9,9 @@ import org.openqa.selenium.JavascriptExecutor;
 @CucumberOptions(
         junit = "--step-notifications",
         plugin = {"pretty", "json:target/cucumber.json"},
-        features = "src/test/resources/features/",
+        features = "src/test/resources/features/api",
         tags = {"@Regression"})
-public class CucumberRunner {
+public class CucumberRunnerApi {
 
 
 }
